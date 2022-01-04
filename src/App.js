@@ -1,8 +1,11 @@
 import './App.css';
+import ReleasesBox from './containers/ReleasesBox';
 
 function App() {
   return (
-    <h1>Upcoming Film Releases for UK</h1>
+    <>
+      <ReleasesBox/>
+    </>
   );
 }
 
