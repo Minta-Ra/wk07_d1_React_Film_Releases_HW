@@ -1,9 +1,10 @@
-
-const Movie = ({name, children}) => {
+// Destructured
+const Movie = ({name, url}) => {
     return (
         <>
-            <h4>{name}</h4>
-            <p>{children}</p>
+            <li>
+                <a href={url}>{name}</a>
+            </li>
         </>
     );
 };

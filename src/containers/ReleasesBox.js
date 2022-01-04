@@ -3,6 +3,7 @@
 import {useState} from 'react';
 import React from 'react';
 import MovieList from '../components/MovieList';
+import ButtonMoreReleases from '../components/Button'
 
 
 const ReleasesBox = () => {
@@ -42,6 +43,8 @@ const ReleasesBox = () => {
             <h1>Upcoming Film Releases for UK</h1>
             {/* movies array of objects passed to MoviesList.js */}
             <MovieList movies={movies}/>
+            <br></br>
+            <ButtonMoreReleases/>
         </>
     );
 };
